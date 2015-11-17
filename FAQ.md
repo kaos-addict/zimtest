@@ -11,7 +11,7 @@ Uhm, if you mean the buttons above your page, technically that are not tabs but 
 
 How do I organize my pages in a tree structure?
 -----------------------------------------------
-You can organize your pages by grouping them in sections. To do so you put pages as sub-pages of a top level page. The "``:``" character is used to separate the page levels in the page name. Thus if you link to "``foo:bar``" you will link to the page called "bar" as a sub-page of the "foo" section. Just link a non-existing page and follow the link to create it. See [Pages](./Help/Pages.markdown) for more information.
+You can organize your pages by grouping them in sections. To do so you put pages as sub-pages of a top level page. The "``:``" character is used to separate the page levels in the page name. Thus if you link to "``foo:bar``" you will link to the page called "bar" as a sub-page of the "foo" section. Just link a non-existing page and follow the link to create it. See [Pages](./Help/Pages.md) for more information.
 
 Why are some pages in the index grayed out?
 -------------------------------------------
@@ -23,23 +23,23 @@ The index keeps pages that are linked by other pages even if you delete them. To
 
 I would like zim to hide in the system tray.
 --------------------------------------------
-There is a [Tray Icon plugin](./Plugins/Tray_Icon.markdown) which can be enabled from the Preferences dialog.
+There is a [Tray Icon plugin](./Plugins/Tray_Icon.md) which can be enabled from the Preferences dialog.
 
 I would like to start zim hidden in the system tray.
 ----------------------------------------------------
-You can call the [Tray Icon plugin](./Plugins/Tray_Icon.markdown) with the command "``zim --plugin trayicon``"
+You can call the [Tray Icon plugin](./Plugins/Tray_Icon.md) with the command "``zim --plugin trayicon``"
 
 Can I make zim appear with a global keybinding?
 -----------------------------------------------
-By default zim will  only run a single instance of each notebook. Trying to open the same notebook again will just pop the corresponding window to the foreground. So you can set a default notebook (see [Notebooks](./Help/Notebooks.markdown)) and just make a global key binding run the command "``zim``". 
+By default zim will  only run a single instance of each notebook. Trying to open the same notebook again will just pop the corresponding window to the foreground. So you can set a default notebook (see [Notebooks](./Help/Notebooks.md)) and just make a global key binding run the command "``zim``". 
 
 How do I publish content from zim to my webpage?
 ------------------------------------------------
-See [Usage:Publishing](./Usage/Publishing.markdown) for some tips
+See [Usage:Publishing](./Usage/Publishing.md) for some tips
 
 Can I change the colors used for links, underline etc. ?
 --------------------------------------------------------
-Yes. Copy "``/usr/share/zim/style.conf``" to "``~/.config/zim/``" and edit as you see fit. See the [Config Files](./Help/Config_Files.markdown) page for the syntax of this file.
+Yes. Copy "``/usr/share/zim/style.conf``" to "``~/.config/zim/``" and edit as you see fit. See the [Config Files](./Help/Config_Files.md) page for the syntax of this file.
 
 Can I have encrypted notebooks?
 -------------------------------
@@ -51,7 +51,7 @@ Well, if you really want to, you can use zim as your agenda. However, the Calend
 
 How do I change the font size of the side pane
 ----------------------------------------------
-You can change this by modifying the ``gtkrc`` file, see [Config Files](./Help/Config_Files.markdown) for details.
+You can change this by modifying the ``gtkrc`` file, see [Config Files](./Help/Config_Files.md) for details.
 
 Does it run on Windows?
 -----------------------
@@ -63,7 +63,7 @@ Yes it does. See the install instructions on our [webpage](http://zim-wiki.org/i
 
 I want to move/backup/synchronize a zim notebook. Which files do I need to take care of?
 ----------------------------------------------------------------------------------------
-The visible files in the notebook folder contain all data of notes and [attachments](./Help/Attachments.markdown).
+The visible files in the notebook folder contain all data of notes and [attachments](./Help/Attachments.md).
 
 What is the hidden .zim folder in my notebook folder?
 -----------------------------------------------------
@@ -75,7 +75,7 @@ By synchronizing all visible files in the notebook. E.g. by putting the zim notb
 
 Can multiple people collaborate using a zim notebook ?
 ------------------------------------------------------
-Zim is written as a "single user" program, so it is not intended for multiple people using the same notebook. However it can be used with version control like Bazaar, Git or Mercurial. This way multiple users can work on the same notebook and merge their changes. See the [Version Control plugin](./Plugins/Version_Control.markdown).
+Zim is written as a "single user" program, so it is not intended for multiple people using the same notebook. However it can be used with version control like Bazaar, Git or Mercurial. This way multiple users can work on the same notebook and merge their changes. See the [Version Control plugin](./Plugins/Version_Control.md).
 
 I have a useful trick or tip. How can I share it with other users?
 ------------------------------------------------------------------

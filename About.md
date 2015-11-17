@@ -22,9 +22,9 @@ The editor tries not to bother you with tasks that distract from the content. Th
 
 Related features include:
 
-* You can use [wiki syntax](./Help/Wiki_Syntax.markdown) to type formatting
+* You can use [wiki syntax](./Help/Wiki_Syntax.md) to type formatting
 * If you restart zim it opens at the same place you closed it.
-* The wiki can navigated completely using [key bindings](./Help/Key_Bindings.markdown).
+* The wiki can navigated completely using [key bindings](./Help/Key_Bindings.md).
 
 
 ### The editor allows you to organize your notes
@@ -36,7 +36,7 @@ Since zim has the GUI layout resembling a note-taking application you can organi
 A few other things I would like to mention:
 
 
-* Zim has various [plugins](./Plugins.markdown) for things like:
+* Zim has various [plugins](./Plugins.md) for things like:
 	* Spell checking
 	* an Equation Editor
 	* using Calendar pages
@@ -45,10 +45,10 @@ A few other things I would like to mention:
 
 
 
-* You can [export](./Help/Export.markdown) your notes to Html if you want to publish them
+* You can [export](./Help/Export.md) your notes to Html if you want to publish them
 
 
-See [Getting Started](./Usage/Getting_Started.markdown) for some practical tips on using zim.
+See [Getting Started](./Usage/Getting_Started.md) for some practical tips on using zim.
 
 Copyright
 ---------
